@@ -110,7 +110,7 @@ agents:
     label: Claude Code (CLI)
     delivery: cli
     command: claude
-    args: --print
+    args: --print --dangerously-skip-permissions
 
   aider:
     label: Aider (CLI)
